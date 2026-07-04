@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery â€” Lumina AI</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="lib/env.js"></script>
+</head>
+<body data-page="gallery">
+  <div id="navbar-root"></div>
+  <main class="page-main">
+    <section class="page-hero"><div class="container"><h1>Community <span class="text-gradient">Gallery</span></h1><p>Discover inspiring AI creations from creators worldwide.</p></div></section>
+    <section class="section"><div class="container">
+      <div style="display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem;align-items:center">
+        <div class="search-input" style="flex:1;min-width:240px"><span class="search-input__icon">âŒ•</span><input type="search" class="form-input" id="gallery-search" placeholder="Search prompts..."></div>
+        <div style="display:flex;gap:0.5rem;flex-wrap:wrap">
+          <button class="preset-chip is-active" data-category="all">All</button>
+          <button class="preset-chip" data-category="realistic">Realistic</button>
+          <button class="preset-chip" data-category="anime">Anime</button>
+          <button class="preset-chip" data-category="fantasy">Fantasy</button>
+          <button class="preset-chip" data-category="cyberpunk">Cyberpunk</button>
+          <button class="preset-chip" data-category="cinematic">Cinematic</button>
+        </div>
+      </div>
+      <div class="tabs" data-tabs>
+        <button class="tab is-active" data-tab="latest" data-sort="latest">Latest</button>
+        <button class="tab" data-tab="trending" data-sort="trending">Trending</button>
+      </div>
+      <div class="masonry" id="gallery-grid"></div>
+      <div id="gallery-sentinel" style="height:1px"></div>
+    </div></section>
+  </main>
+  <div id="footer-root"></div>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

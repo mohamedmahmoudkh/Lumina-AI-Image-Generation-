@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact â€” Lumina AI</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="lib/env.js"></script>
+</head>
+<body data-page="contact">
+  <div id="navbar-root"></div>
+  <main class="page-main">
+    <section class="page-hero"><div class="container"><h1>Get in <span class="text-gradient">Touch</span></h1><p>We would love to hear from you.</p></div></section>
+    <section class="section"><div class="container contact-grid">
+      <div>
+        <div class="contact-info__item"><div class="contact-info__icon">âœ‰</div><div><strong>Email</strong><p style="color:var(--color-text-muted)">hello@lumina.ai</p></div></div>
+        <div class="contact-info__item"><div class="contact-info__icon">â—Ž</div><div><strong>Discord</strong><p style="color:var(--color-text-muted)">discord.gg/lumina</p></div></div>
+      </div>
+      <form class="card card--glass" id="contact-form" style="padding:2rem">
+        <div class="form-group"><label class="form-label">Name</label><input class="form-input" name="name" required></div>
+        <div class="form-group"><label class="form-label">Email</label><input class="form-input" type="email" name="email" required></div>
+        <div class="form-group"><label class="form-label">Message</label><textarea class="form-textarea" name="message" rows="5" required></textarea></div>
+        <button type="submit" class="btn btn--primary">Send Message</button>
+      </form>
+    </div></section>
+  </main>
+  <div id="footer-root"></div>
+  <script type="module" src="assets/js/app.js"></script>
+  <script type="module">document.getElementById('contact-form')?.addEventListener('submit', e => { e.preventDefault(); import('./components/toast.js').then(m => m.toastSuccess('Message sent! We will reply soon.')); e.target.reset(); });</script>
+</body>
+</html>

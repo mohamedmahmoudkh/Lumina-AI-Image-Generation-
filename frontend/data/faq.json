@@ -1,0 +1,8 @@
+[
+  {"question":"How does Lumina AI generate images?","answer":"Lumina uses advanced diffusion models trained on diverse datasets. Enter a text prompt, select your style and settings, and our AI creates unique images in seconds."},
+  {"question":"Can I use generated images commercially?","answer":"Commercial use is included with Pro and Enterprise plans. Free tier images are for personal use only. Check our Terms for full details."},
+  {"question":"What resolution can I export?","answer":"Free users get up to 1024px. Pro users can export up to 4K. Enterprise includes custom resolution options."},
+  {"question":"How do credits work?","answer":"Each image generation uses credits based on resolution and count. Free accounts get 50 monthly credits. Pro includes 2,000 credits."},
+  {"question":"Is there an API available?","answer":"Yes! Pro and Enterprise plans include API access for integrating Lumina into your apps and workflows."},
+  {"question":"Can I cancel my subscription anytime?","answer":"Absolutely. Cancel anytime from your billing settings. You retain access until the end of your billing period."}
+]

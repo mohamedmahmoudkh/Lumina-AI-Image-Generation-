@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile â€” Lumina AI</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="lib/env.js"></script>
+</head>
+<body data-page="profile" data-page-title="Profile">
+  <div id="sidebar-root"></div>
+  <div class="dashboard-layout">
+    <div id="dashboard-header-root"></div>
+    <div class="dashboard-content">
+      <div class="card card--glass reveal" style="padding:2rem;max-width:600px">
+        <div style="display:flex;align-items:center;gap:1.5rem;margin-bottom:1.5rem">
+          <img class="avatar" src="https://i.pravatar.cc/96?u=lumina" alt="" width="80" height="80" id="profile-avatar">
+          <div><h2 id="profile-name">User</h2><p style="color:var(--color-text-muted)" id="profile-email">email</p></div>
+        </div>
+        <a href="settings.html" class="btn btn--secondary">Edit Profile</a>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="assets/js/app.js"></script>
+  <script type="module">
+    import { getUser } from './store/state.js';
+    document.addEventListener('DOMContentLoaded', () => {
+      const u = getUser();
+      if (u) {
+        document.getElementById('profile-name').textContent = u.name || 'User';
+        document.getElementById('profile-email').textContent = u.email || '';
+      }
+    });
+  </script>
+</body>
+</html>

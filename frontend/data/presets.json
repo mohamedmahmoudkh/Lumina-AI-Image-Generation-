@@ -1,0 +1,10 @@
+[
+  {"id":"anime","name":"Anime","style":"anime","image":"https://images.unsplash.com/photo-1633167970890-6f947683b349?w=400&q=80","promptHint":"anime style character with vibrant colors"},
+  {"id":"realistic","name":"Realistic","style":"realistic","image":"https://images.unsplash.com/photo-1506905925347-21bda4d32df4?w=400&q=80","promptHint":"photorealistic portrait, 8k, detailed"},
+  {"id":"product","name":"Product Photography","style":"product","image":"https://images.unsplash.com/photo-1620641788421-7a1c338ea1cb?w=400&q=80","promptHint":"professional product shot on white background"},
+  {"id":"cyberpunk","name":"Cyberpunk","style":"cyberpunk","image":"https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&q=80","promptHint":"cyberpunk cityscape neon lights rain"},
+  {"id":"fantasy","name":"Fantasy","style":"fantasy","image":"https://images.unsplash.com/photo-1634017839464-5c339bbe3f56?w=400&q=80","promptHint":"epic fantasy landscape magical atmosphere"},
+  {"id":"oil","name":"Oil Painting","style":"oil","image":"https://images.unsplash.com/photo-1579783902610-fdcb36a0f714?w=400&q=80","promptHint":"oil painting style classical art"},
+  {"id":"pixar","name":"Pixar Style","style":"pixar","image":"https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=400&q=80","promptHint":"3D pixar style cute character"},
+  {"id":"sketch","name":"Sketch","style":"sketch","image":"https://images.unsplash.com/photo-1561214115-f2f5c6e0b0c8?w=400&q=80","promptHint":"pencil sketch architectural drawing"}
+]

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billing — Lumina AI</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="lib/env.js"></script>
+</head>
+<body data-page="billing" data-page-title="Billing">
+  <div id="sidebar-root"></div>
+  <div class="dashboard-layout">
+    <div id="dashboard-header-root"></div>
+    <div class="dashboard-content">
+      <div class="plan-current reveal">
+        <span class="badge">Current Plan</span>
+        <div id="billing-status" style="margin-top:0.75rem">
+          <h3>Loading...</h3>
+        </div>
+      </div>
+      <h2 style="margin-bottom:0.5rem">Upgrade your plan</h2>
+      <p style="color:var(--color-text-muted);margin-bottom:1.5rem">Pro includes a 7-day free trial. No credit card required in demo mode.</p>
+      <div class="grid grid--3" id="pricing-grid"></div>
+    </div>
+  </div>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

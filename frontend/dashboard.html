@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard â€” Lumina AI</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="lib/env.js"></script>
+</head>
+<body data-page="dashboard" data-page-title="Overview">
+  <div id="sidebar-root"></div>
+  <div class="dashboard-layout">
+    <div id="dashboard-header-root"></div>
+    <div class="dashboard-content">
+      <div class="grid grid--4" id="dashboard-stats" style="margin-bottom:2rem"></div>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2rem" id="quick-actions"></div>
+      <h2 style="margin-bottom:1rem">Recent Generations</h2>
+      <div class="grid grid--3" id="recent-generations"></div>
+    </div>
+  </div>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[
+  {"id":"realistic","name":"Realistic","image":"https://images.unsplash.com/photo-1506905925347-21bda4d32df4?w=400&q=80"},
+  {"id":"anime","name":"Anime","image":"https://images.unsplash.com/photo-1633167970890-6f947683b349?w=400&q=80"},
+  {"id":"cinematic","name":"Cinematic","image":"https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=400&q=80"},
+  {"id":"product","name":"Product Photography","image":"https://images.unsplash.com/photo-1620641788421-7a1c338ea1cb?w=400&q=80"},
+  {"id":"fantasy","name":"Fantasy","image":"https://images.unsplash.com/photo-1634017839464-5c339bbe3f56?w=400&q=80"},
+  {"id":"minimalist","name":"Minimalist","image":"https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&q=80"},
+  {"id":"3d","name":"3D Render","image":"https://images.unsplash.com/photo-1618172193622-ae2d025f4032?w=400&q=80"},
+  {"id":"oil","name":"Oil Painting","image":"https://images.unsplash.com/photo-1579783902610-fdcb36a0f714?w=400&q=80"}
+]

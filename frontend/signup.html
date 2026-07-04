@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign up for Lumina AI — 7-day Pro trial, 200 free credits, no credit card.">
+  <title>Sign Up — Lumina AI | Free Pro Trial</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="lib/env.js"></script>
+</head>
+<body data-page="signup">
+  <main class="page-main page-main--auth" style="padding:2rem">
+    <a href="index.html" class="navbar__logo" style="position:absolute;top:1.5rem;left:1.5rem">
+      <span class="navbar__logo-icon">✦</span> Lumina AI
+    </a>
+    <div class="auth-card reveal">
+      <header class="auth-card__header">
+        <span class="offer-banner__badge" style="margin-bottom:0.75rem">Free trial</span>
+        <h1>Start your 7-day Pro trial</h1>
+        <p>200 credits · All styles · No credit card</p>
+      </header>
+      <form id="signup-form" novalidate>
+        <div class="form-group">
+          <label class="form-label" for="name">Name</label>
+          <input class="form-input" id="name" name="name" required placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" type="email" id="email" name="email" required placeholder="you@example.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="password">Password</label>
+          <div class="input-wrap">
+            <input class="form-input" type="password" id="password" name="password" required minlength="8" placeholder="Min 8 characters">
+            <button type="button" class="input-toggle" data-toggle-password="#password">Show</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="confirm">Confirm password</label>
+          <input class="form-input" type="password" id="confirm" name="confirm" required>
+        </div>
+        <label class="trial-checkbox">
+          <input type="checkbox" name="startTrial" id="startTrial" checked>
+          <span>
+            <strong>Start 7-day Pro trial</strong>
+            Get 200 credits instantly. Cancel anytime before trial ends — no charge.
+          </span>
+        </label>
+        <button type="submit" class="btn btn--primary" style="width:100%">Create account & start trial</button>
+      </form>
+      <p class="auth-footer">Already have an account? <a href="login.html">Log in</a></p>
+    </div>
+  </main>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

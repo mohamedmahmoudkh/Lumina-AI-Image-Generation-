@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History â€” Lumina AI</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="lib/env.js"></script>
+</head>
+<body data-page="history" data-page-title="History">
+  <div id="sidebar-root"></div>
+  <div class="dashboard-layout">
+    <div id="dashboard-header-root"></div>
+    <div class="dashboard-content">
+      <div style="display:flex;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem">
+        <p style="color:var(--color-text-muted)">Your generation history</p>
+        <select class="form-select" id="history-filter" style="width:auto"><option value="all">All time</option><option value="week">This week</option></select>
+      </div>
+      <div id="history-list" style="display:flex;flex-direction:column;gap:1rem"></div>
+    </div>
+  </div>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generate â€” Lumina AI</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="lib/env.js"></script>
+</head>
+<body data-page="generate" data-page-title="Generate">
+  <div id="sidebar-root"></div>
+  <div class="dashboard-layout">
+    <div id="dashboard-header-root"></div>
+    <div class="dashboard-content">
+      <form id="generate-form" class="generate-layout">
+        <div>
+          <div class="prompt-box" style="margin-bottom:1.5rem">
+            <textarea class="prompt-box__textarea" id="prompt-input" placeholder="Describe your image in detail..." rows="5"></textarea>
+            <div class="prompt-box__footer">
+              <span class="prompt-box__count" id="prompt-count">0 / 2000</span>
+              <label style="display:flex;align-items:center;gap:0.5rem;font-size:0.875rem"><input type="checkbox" id="enhance-toggle" checked> Auto-enhance</label>
+            </div>
+          </div>
+          <div id="prompt-suggestions" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.5rem"></div>
+          <div class="controls-panel card card--glass" style="padding:1.5rem">
+            <div class="control-group"><label>Style</label>
+              <div style="display:flex;flex-wrap:wrap;gap:0.5rem">
+                <button type="button" class="preset-chip is-active" data-style="realistic">Realistic</button>
+                <button type="button" class="preset-chip" data-style="anime">Anime</button>
+                <button type="button" class="preset-chip" data-style="cinematic">Cinematic</button>
+                <button type="button" class="preset-chip" data-style="fantasy">Fantasy</button>
+              </div>
+            </div>
+            <div class="control-group"><label>Aspect Ratio</label>
+              <div class="control-row">
+                <button type="button" class="ratio-btn is-active" data-ratio="1:1">1:1</button>
+                <button type="button" class="ratio-btn" data-ratio="16:9">16:9</button>
+                <button type="button" class="ratio-btn" data-ratio="9:16">9:16</button>
+                <button type="button" class="ratio-btn" data-ratio="4:3">4:3</button>
+              </div>
+            </div>
+            <div class="control-group"><label for="resolution-select">Resolution</label>
+              <select class="form-select" id="resolution-select"><option value="512">512px</option><option value="1024" selected>1024px</option><option value="2048">2048px</option></select>
+            </div>
+            <div class="control-group"><label for="count-select">Images</label>
+              <select class="form-select" id="count-select"><option value="1" selected>1</option><option value="2">2</option><option value="4">4</option></select>
+            </div>
+            <div class="control-group"><label>Creativity <span id="creativity-value">50</span></label>
+              <input type="range" id="creativity-range" min="0" max="100" value="50" style="width:100%">
+            </div>
+            <div class="control-group"><label for="seed-input">Seed (optional)</label>
+              <input class="form-input" id="seed-input" placeholder="Random">
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg" id="generate-btn" style="width:100%;margin-top:1rem">Generate</button>
+          </div>
+        </div>
+        <div>
+          <h2 style="margin-bottom:1rem">Output</h2>
+          <div class="output-grid" id="output-grid">
+            <div class="empty-state" style="grid-column:1/-1"><div class="empty-state__icon">âœ¦</div><h3>Your creations appear here</h3><p class="empty-state__desc">Enter a prompt and hit Generate</p></div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

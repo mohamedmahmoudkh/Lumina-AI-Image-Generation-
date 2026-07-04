@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In — Lumina AI</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="lib/env.js"></script>
+</head>
+<body data-page="login" class="page-main--auth">
+  <main class="page-main page-main--auth" style="padding:2rem">
+    <a href="index.html" class="navbar__logo" style="position:absolute;top:1.5rem;left:1.5rem">
+      <span class="navbar__logo-icon">✦</span> Lumina AI
+    </a>
+    <div class="auth-card reveal">
+      <header class="auth-card__header">
+        <h1>Welcome back</h1>
+        <p>Sign in to continue creating</p>
+      </header>
+      <div class="social-btns">
+        <button type="button" class="social-btn">G Google</button>
+        <button type="button" class="social-btn">GitHub</button>
+      </div>
+      <p class="auth-divider">or continue with email</p>
+      <form id="login-form" novalidate>
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" type="email" id="email" name="email" required autocomplete="email" placeholder="you@example.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="password">Password</label>
+          <div class="input-wrap">
+            <input class="form-input" type="password" id="password" name="password" required autocomplete="current-password" placeholder="Enter password">
+            <button type="button" class="input-toggle" data-toggle-password="#password" aria-label="Toggle password">Show</button>
+          </div>
+        </div>
+        <p style="text-align:right;margin-bottom:1rem"><a href="forgot-password.html" style="font-size:0.875rem">Forgot password?</a></p>
+        <button type="submit" class="btn btn--primary" style="width:100%">Sign In</button>
+      </form>
+      <p class="auth-footer">Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+  </main>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

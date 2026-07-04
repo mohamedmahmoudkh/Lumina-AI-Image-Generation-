@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings â€” Lumina AI</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="lib/env.js"></script>
+</head>
+<body data-page="settings" data-page-title="Settings">
+  <div id="sidebar-root"></div>
+  <div class="dashboard-layout">
+    <div id="dashboard-header-root"></div>
+    <div class="dashboard-content settings-layout">
+      <nav class="settings-nav">
+        <a href="#" class="sidebar__link is-active" data-settings-section="profile">Profile</a>
+        <a href="#" class="sidebar__link" data-settings-section="notifications">Notifications</a>
+        <a href="#" class="sidebar__link" data-settings-section="api">API</a>
+        <a href="#" class="sidebar__link" data-settings-section="theme">Theme</a>
+        <a href="#" class="sidebar__link" data-settings-section="security">Security</a>
+      </nav>
+      <div>
+        <section class="settings-section is-active" id="settings-profile"><h2>Profile</h2>
+          <form id="profile-form" class="card" style="padding:1.5rem;max-width:480px">
+            <div class="form-group"><label class="form-label">Name</label><input class="form-input" name="name"></div>
+            <div class="form-group"><label class="form-label">Email</label><input class="form-input" name="email" type="email"></div>
+            <button type="submit" class="btn btn--primary">Save</button>
+          </form>
+        </section>
+        <section class="settings-section" id="settings-notifications"><h2>Notifications</h2>
+          <form id="notifications-form" class="card" style="padding:1.5rem;max-width:480px">
+            <label style="display:flex;gap:0.5rem;margin-bottom:0.75rem"><input type="checkbox" checked> Email updates</label>
+            <label style="display:flex;gap:0.5rem;margin-bottom:0.75rem"><input type="checkbox"> Marketing</label>
+            <button type="submit" class="btn btn--primary">Save</button>
+          </form>
+        </section>
+        <section class="settings-section" id="settings-api"><h2>API Settings</h2>
+          <form id="api-form" class="card" style="padding:1.5rem;max-width:480px">
+            <div class="form-group"><label class="form-label">API Key</label><input class="form-input" value="lum_sk_â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" readonly></div>
+            <button type="submit" class="btn btn--secondary">Regenerate</button>
+          </form>
+        </section>
+        <section class="settings-section" id="settings-theme"><h2>Theme</h2>
+          <div class="card" style="padding:1.5rem;max-width:480px">
+            <select class="form-select" id="theme-select"><option value="dark" selected>Dark</option><option value="light">Light (soon)</option></select>
+          </div>
+        </section>
+        <section class="settings-section" id="settings-security"><h2>Security</h2>
+          <form id="security-form" class="card" style="padding:1.5rem;max-width:480px">
+            <div class="form-group"><label class="form-label">Current Password</label><input class="form-input" type="password"></div>
+            <div class="form-group"><label class="form-label">New Password</label><input class="form-input" type="password"></div>
+            <button type="submit" class="btn btn--primary">Update Password</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

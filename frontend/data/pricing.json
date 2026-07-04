@@ -1,0 +1,43 @@
+[
+  {
+    "id": "free",
+    "name": "Free",
+    "price": 0,
+    "period": "month",
+    "description": "Explore AI art — no credit card",
+    "features": ["50 credits/month", "Standard resolution", "Community gallery", "Basic styles", "Personal use"],
+    "cta": "Get Started Free",
+    "featured": false
+  },
+  {
+    "id": "pro",
+    "name": "Pro",
+    "price": 29,
+    "period": "month",
+    "description": "For creators & professionals",
+    "trialDays": 7,
+    "trialCredits": 200,
+    "badge": "Most Popular",
+    "features": [
+      "7-day FREE trial — 200 credits",
+      "2,000 credits/month after trial",
+      "Up to 4K resolution",
+      "All style presets",
+      "Commercial license",
+      "Priority generation",
+      "REST API access"
+    ],
+    "cta": "Start 7-Day Free Trial",
+    "featured": true
+  },
+  {
+    "id": "enterprise",
+    "name": "Enterprise",
+    "price": 99,
+    "period": "month",
+    "description": "Teams & agencies at scale",
+    "features": ["Unlimited credits", "Custom models", "Dedicated support", "SSO", "SLA", "White-label"],
+    "cta": "Contact Sales",
+    "featured": false
+  }
+]

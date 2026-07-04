@@ -1,0 +1,302 @@
+{
+  "users": [
+    {
+      "id": "CAWLf5jHKRMhrtwo8e6Kv",
+      "createdAt": "2026-05-24T23:08:51.004Z",
+      "name": "mohamed khalil",
+      "email": "mohamedkhalil3136@gmail.com",
+      "passwordHash": "$2a$12$1JI6cqQdKeR.hjvLjmLjWeINEoinLjTZHikszbNL4pVQKf.MRPb.6",
+      "plan": "trial",
+      "credits": 192,
+      "trialUsed": true,
+      "trialEndsAt": "2026-05-31T23:08:51.006Z",
+      "updatedAt": "2026-05-24T23:13:47.069Z"
+    }
+  ],
+  "generations": [
+    {
+      "id": "gbleeVC1ajq1Oay-zMkQv",
+      "createdAt": "2026-05-24T23:09:09.828Z",
+      "userId": "CAWLf5jHKRMhrtwo8e6Kv",
+      "prompt": "Man with beard",
+      "style": "fantasy",
+      "images": [
+        {
+          "id": "img-1779664149825",
+          "url": "https://image.pollinations.ai/prompt/Man%20with%20beard%2C%20fantasy%20art%2C%20magical?width=1024&height=576&seed=1779664149825&nologo=true",
+          "prompt": "Man with beard, fantasy art, magical",
+          "provider": "pollinations"
+        }
+      ]
+    },
+    {
+      "id": "AUVgGTKi6cBt_kJbK1Xkk",
+      "createdAt": "2026-05-24T23:10:04.499Z",
+      "userId": "CAWLf5jHKRMhrtwo8e6Kv",
+      "prompt": "Minimalist perfume bottle on marble",
+      "style": "realistic",
+      "images": [
+        {
+          "id": "img-1779664204495",
+          "url": "https://image.pollinations.ai/prompt/Minimalist%20perfume%20bottle%20on%20marble%2C%20photorealistic%2C%208k%2C%20detailed?width=1024&height=1024&seed=1779664204495&nologo=true",
+          "prompt": "Minimalist perfume bottle on marble, photorealistic, 8k, detailed",
+          "provider": "pollinations"
+        }
+      ]
+    },
+    {
+      "id": "04QgCBFqmCPSoP52mUvg7",
+      "createdAt": "2026-05-24T23:11:06.402Z",
+      "userId": "CAWLf5jHKRMhrtwo8e6Kv",
+      "prompt": "Ultra-modern professional studio interior, premium luxury design, cinematic lighting, soft ambient LED lights, high-end equipment, elegant black and gold color palette, realistic textures, modern architecture, premium furniture, ultra detailed, clean aesthetic, professional atmosphere, depth of field, 8k, photorealistic, commercial quality, dramatic shadows, luxury branding environment",
+      "style": "realistic",
+      "images": [
+        {
+          "id": "img-1779664266399",
+          "url": "https://image.pollinations.ai/prompt/Ultra-modern%20professional%20studio%20interior%2C%20premium%20luxury%20design%2C%20cinematic%20lighting%2C%20soft%20ambient%20LED%20lights%2C%20high-end%20equipment%2C%20elegant%20black%20and%20gold%20color%20palette%2C%20realistic%20textures%2C%20modern%20architecture%2C%20premium%20furniture%2C%20ultra%20detailed%2C%20clean%20aesthetic%2C%20professional%20atmosphere%2C%20depth%20of%20field%2C%208k%2C%20photorealistic%2C%20commercial%20quality%2C%20dramatic%20shadows%2C%20luxury%20branding%20environment%2C%20photorealistic%2C%208k%2C%20detailed?width=1024&height=1024&seed=1779664266399&nologo=true",
+          "prompt": "Ultra-modern professional studio interior, premium luxury design, cinematic lighting, soft ambient LED lights, high-end equipment, elegant black and gold color palette, realistic textures, modern architecture, premium furniture, ultra detailed, clean aesthetic, professional atmosphere, depth of field, 8k, photorealistic, commercial quality, dramatic shadows, luxury branding environment, photorealistic, 8k, detailed",
+          "provider": "pollinations"
+        }
+      ]
+    },
+    {
+      "id": "o5ItPvtHBQVDAPM1XLIpD",
+      "createdAt": "2026-05-24T23:11:44.871Z",
+      "userId": "CAWLf5jHKRMhrtwo8e6Kv",
+      "prompt": "Luxury Gulf fashion studio for clothing brand, elegant premium boutique-style studio, modern Arabic luxury aesthetic, soft gold lighting, marble textures, beige and warm tones, premium clothing displays, elegant mannequins, luxury atmosphere, high-end fashion photography setup, cinematic lighting, ultra realistic, premium e-commerce brand identity, photorealistic, 8K",
+      "style": "realistic",
+      "images": [
+        {
+          "id": "img-1779664304869",
+          "url": "https://image.pollinations.ai/prompt/Luxury%20Gulf%20fashion%20studio%20for%20clothing%20brand%2C%20elegant%20premium%20boutique-style%20studio%2C%20modern%20Arabic%20luxury%20aesthetic%2C%20soft%20gold%20lighting%2C%20marble%20textures%2C%20beige%20and%20warm%20tones%2C%20premium%20clothing%20displays%2C%20elegant%20mannequins%2C%20luxury%20atmosphere%2C%20high-end%20fashion%20photography%20setup%2C%20cinematic%20lighting%2C%20ultra%20realistic%2C%20premium%20e-commerce%20brand%20identity%2C%20photorealistic%2C%208K%2C%20photorealistic%2C%208k%2C%20detailed?width=1024&height=1024&seed=1779664304869&nologo=true",
+          "prompt": "Luxury Gulf fashion studio for clothing brand, elegant premium boutique-style studio, modern Arabic luxury aesthetic, soft gold lighting, marble textures, beige and warm tones, premium clothing displays, elegant mannequins, luxury atmosphere, high-end fashion photography setup, cinematic lighting, ultra realistic, premium e-commerce brand identity, photorealistic, 8K, photorealistic, 8k, detailed",
+          "provider": "pollinations"
+        }
+      ]
+    },
+    {
+      "id": "oH7mfwtnUCn7sKNC1c1Cc",
+      "createdAt": "2026-05-24T23:11:48.726Z",
+      "userId": "CAWLf5jHKRMhrtwo8e6Kv",
+      "prompt": "Luxury Gulf fashion studio for clothing brand, elegant premium boutique-style studio, modern Arabic luxury aesthetic, soft gold lighting, marble textures, beige and warm tones, premium clothing displays, elegant mannequins, luxury atmosphere, high-end fashion photography setup, cinematic lighting, ultra realistic, premium e-commerce brand identity, photorealistic, 8K",
+      "style": "realistic",
+      "images": [
+        {
+          "id": "img-1779664308723",
+          "url": "https://image.pollinations.ai/prompt/Luxury%20Gulf%20fashion%20studio%20for%20clothing%20brand%2C%20elegant%20premium%20boutique-style%20studio%2C%20modern%20Arabic%20luxury%20aesthetic%2C%20soft%20gold%20lighting%2C%20marble%20textures%2C%20beige%20and%20warm%20tones%2C%20premium%20clothing%20displays%2C%20elegant%20mannequins%2C%20luxury%20atmosphere%2C%20high-end%20fashion%20photography%20setup%2C%20cinematic%20lighting%2C%20ultra%20realistic%2C%20premium%20e-commerce%20brand%20identity%2C%20photorealistic%2C%208K%2C%20photorealistic%2C%208k%2C%20detailed?width=1024&height=1024&seed=1779664308723&nologo=true",
+          "prompt": "Luxury Gulf fashion studio for clothing brand, elegant premium boutique-style studio, modern Arabic luxury aesthetic, soft gold lighting, marble textures, beige and warm tones, premium clothing displays, elegant mannequins, luxury atmosphere, high-end fashion photography setup, cinematic lighting, ultra realistic, premium e-commerce brand identity, photorealistic, 8K, photorealistic, 8k, detailed",
+          "provider": "pollinations"
+        }
+      ]
+    },
+    {
+      "id": "8kDVJPmWHHv71M8Bxx_aj",
+      "createdAt": "2026-05-24T23:11:48.892Z",
+      "userId": "CAWLf5jHKRMhrtwo8e6Kv",
+      "prompt": "Luxury Gulf fashion studio for clothing brand, elegant premium boutique-style studio, modern Arabic luxury aesthetic, soft gold lighting, marble textures, beige and warm tones, premium clothing displays, elegant mannequins, luxury atmosphere, high-end fashion photography setup, cinematic lighting, ultra realistic, premium e-commerce brand identity, photorealistic, 8K",
+      "style": "realistic",
+      "images": [
+        {
+          "id": "img-1779664308889",
+          "url": "https://image.pollinations.ai/prompt/Luxury%20Gulf%20fashion%20studio%20for%20clothing%20brand%2C%20elegant%20premium%20boutique-style%20studio%2C%20modern%20Arabic%20luxury%20aesthetic%2C%20soft%20gold%20lighting%2C%20marble%20textures%2C%20beige%20and%20warm%20tones%2C%20premium%20clothing%20displays%2C%20elegant%20mannequins%2C%20luxury%20atmosphere%2C%20high-end%20fashion%20photography%20setup%2C%20cinematic%20lighting%2C%20ultra%20realistic%2C%20premium%20e-commerce%20brand%20identity%2C%20photorealistic%2C%208K%2C%20photorealistic%2C%208k%2C%20detailed?width=1024&height=1024&seed=1779664308889&nologo=true",
+          "prompt": "Luxury Gulf fashion studio for clothing brand, elegant premium boutique-style studio, modern Arabic luxury aesthetic, soft gold lighting, marble textures, beige and warm tones, premium clothing displays, elegant mannequins, luxury atmosphere, high-end fashion photography setup, cinematic lighting, ultra realistic, premium e-commerce brand identity, photorealistic, 8K, photorealistic, 8k, detailed",
+          "provider": "pollinations"
+        }
+      ]
+    },
+    {
+      "id": "IIOJlJm91keVS4y9ELXkk",
+      "createdAt": "2026-05-24T23:11:49.030Z",
+      "userId": "CAWLf5jHKRMhrtwo8e6Kv",
+      "prompt": "Luxury Gulf fashion studio for clothing brand, elegant premium boutique-style studio, modern Arabic luxury aesthetic, soft gold lighting, marble textures, beige and warm tones, premium clothing displays, elegant mannequins, luxury atmosphere, high-end fashion photography setup, cinematic lighting, ultra realistic, premium e-commerce brand identity, photorealistic, 8K",
+      "style": "realistic",
+      "images": [
+        {
+          "id": "img-1779664309027",
+          "url": "https://image.pollinations.ai/prompt/Luxury%20Gulf%20fashion%20studio%20for%20clothing%20brand%2C%20elegant%20premium%20boutique-style%20studio%2C%20modern%20Arabic%20luxury%20aesthetic%2C%20soft%20gold%20lighting%2C%20marble%20textures%2C%20beige%20and%20warm%20tones%2C%20premium%20clothing%20displays%2C%20elegant%20mannequins%2C%20luxury%20atmosphere%2C%20high-end%20fashion%20photography%20setup%2C%20cinematic%20lighting%2C%20ultra%20realistic%2C%20premium%20e-commerce%20brand%20identity%2C%20photorealistic%2C%208K%2C%20photorealistic%2C%208k%2C%20detailed?width=1024&height=1024&seed=1779664309027&nologo=true",
+          "prompt": "Luxury Gulf fashion studio for clothing brand, elegant premium boutique-style studio, modern Arabic luxury aesthetic, soft gold lighting, marble textures, beige and warm tones, premium clothing displays, elegant mannequins, luxury atmosphere, high-end fashion photography setup, cinematic lighting, ultra realistic, premium e-commerce brand identity, photorealistic, 8K, photorealistic, 8k, detailed",
+          "provider": "pollinations"
+        }
+      ]
+    },
+    {
+      "id": "ZX0ZIJbeBurTME-pRZEX1",
+      "createdAt": "2026-05-24T23:13:47.071Z",
+      "userId": "CAWLf5jHKRMhrtwo8e6Kv",
+      "prompt": "Nigga",
+      "style": "realistic",
+      "images": [
+        {
+          "id": "img-1779664427068",
+          "url": "https://image.pollinations.ai/prompt/Nigga%2C%20photorealistic%2C%208k%2C%20detailed?width=1024&height=1024&seed=1779664427068&nologo=true",
+          "prompt": "Nigga, photorealistic, 8k, detailed",
+          "provider": "pollinations"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g1",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80",
+      "prompt": "Ethereal cyberpunk city at night with neon reflections in rain",
+      "author": "Alex Chen",
+      "avatar": "https://i.pravatar.cc/64?u=alex",
+      "likes": 2847,
+      "category": "cyberpunk",
+      "createdAt": "2026-05-14T10:00:00Z"
+    },
+    {
+      "id": "g2",
+      "image": "https://images.unsplash.com/photo-1579783902610-fdcb36a0f714?w=600&q=80",
+      "prompt": "Oil painting of a serene mountain lake at golden hour",
+      "author": "Maya Rivera",
+      "avatar": "https://i.pravatar.cc/64?u=maya",
+      "likes": 1923,
+      "category": "realistic",
+      "createdAt": "2026-05-13T15:30:00Z"
+    },
+    {
+      "id": "g3",
+      "image": "https://images.unsplash.com/photo-1633167970890-6f947683b349?w=600&q=80",
+      "prompt": "Anime warrior princess with flowing hair and magical sword",
+      "author": "Ken Tanaka",
+      "avatar": "https://i.pravatar.cc/64?u=ken",
+      "likes": 4521,
+      "category": "anime",
+      "createdAt": "2026-05-12T08:00:00Z"
+    },
+    {
+      "id": "g4",
+      "image": "https://images.unsplash.com/photo-1620641788421-7a1c338ea1cb?w=600&q=80",
+      "prompt": "Minimalist product photography of luxury watch on marble",
+      "author": "Studio Lux",
+      "avatar": "https://i.pravatar.cc/64?u=lux",
+      "likes": 987,
+      "category": "product",
+      "createdAt": "2026-05-11T12:00:00Z"
+    },
+    {
+      "id": "g5",
+      "image": "https://images.unsplash.com/photo-1634017839464-5c339bbe3f56?w=600&q=80",
+      "prompt": "Fantasy dragon soaring over ancient castle ruins",
+      "author": "Elena Frost",
+      "avatar": "https://i.pravatar.cc/64?u=elena",
+      "likes": 3892,
+      "category": "fantasy",
+      "createdAt": "2026-05-10T18:00:00Z"
+    },
+    {
+      "id": "g6",
+      "image": "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=600&q=80",
+      "prompt": "Cinematic portrait with dramatic rim lighting and fog",
+      "author": "James Holt",
+      "avatar": "https://i.pravatar.cc/64?u=james",
+      "likes": 2104,
+      "category": "cinematic",
+      "createdAt": "2026-05-09T09:00:00Z"
+    },
+    {
+      "id": "g7",
+      "image": "https://images.unsplash.com/photo-1618172193622-ae2d025f4032?w=600&q=80",
+      "prompt": "3D render of futuristic sports car in studio lighting",
+      "author": "Voxel Labs",
+      "avatar": "https://i.pravatar.cc/64?u=voxel",
+      "likes": 1567,
+      "category": "3d",
+      "createdAt": "2026-05-08T14:00:00Z"
+    },
+    {
+      "id": "g8",
+      "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&q=80",
+      "prompt": "Abstract minimalist composition with soft gradients",
+      "author": "Nina Park",
+      "avatar": "https://i.pravatar.cc/64?u=nina",
+      "likes": 743,
+      "category": "minimalist",
+      "createdAt": "2026-05-07T11:00:00Z"
+    },
+    {
+      "id": "g9",
+      "image": "https://images.unsplash.com/photo-1506905925347-21bda4d32df4?w=600&q=80",
+      "prompt": "Photorealistic alpine landscape with dramatic clouds",
+      "author": "Alex Chen",
+      "avatar": "https://i.pravatar.cc/64?u=alex",
+      "likes": 3241,
+      "category": "realistic",
+      "createdAt": "2026-05-06T16:00:00Z"
+    },
+    {
+      "id": "g10",
+      "image": "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=600&q=80",
+      "prompt": "Pixar-style cute robot exploring colorful alien planet",
+      "author": "Maya Rivera",
+      "avatar": "https://i.pravatar.cc/64?u=maya",
+      "likes": 2678,
+      "category": "anime",
+      "createdAt": "2026-05-05T10:00:00Z"
+    },
+    {
+      "id": "g11",
+      "image": "https://images.unsplash.com/photo-1561214115-f2f5c6e0b0c8?w=600&q=80",
+      "prompt": "Sketch art of vintage architecture with ink wash",
+      "author": "Ken Tanaka",
+      "avatar": "https://i.pravatar.cc/64?u=ken",
+      "likes": 892,
+      "category": "sketch",
+      "createdAt": "2026-05-04T13:00:00Z"
+    },
+    {
+      "id": "g12",
+      "image": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=600&q=80",
+      "prompt": "Surreal dreamscape with floating islands and waterfalls",
+      "author": "Elena Frost",
+      "avatar": "https://i.pravatar.cc/64?u=elena",
+      "likes": 4102,
+      "category": "fantasy",
+      "createdAt": "2026-05-03T08:00:00Z"
+    },
+    {
+      "id": "g13",
+      "image": "https://images.unsplash.com/photo-1614854264033-5c80e9e0b8b9?w=600&q=80",
+      "prompt": "Neon-lit street food vendor in Tokyo at midnight",
+      "author": "James Holt",
+      "avatar": "https://i.pravatar.cc/64?u=james",
+      "likes": 1890,
+      "category": "cinematic",
+      "createdAt": "2026-05-02T20:00:00Z"
+    },
+    {
+      "id": "g14",
+      "image": "https://images.unsplash.com/photo-1618172193730-53f41e7e1c80?w=600&q=80",
+      "prompt": "Premium skincare product on gradient background",
+      "author": "Studio Lux",
+      "avatar": "https://i.pravatar.cc/64?u=lux",
+      "likes": 654,
+      "category": "product",
+      "createdAt": "2026-05-01T12:00:00Z"
+    },
+    {
+      "id": "g15",
+      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&q=80",
+      "prompt": "Holographic AI interface with data streams",
+      "author": "Voxel Labs",
+      "avatar": "https://i.pravatar.cc/64?u=voxel",
+      "likes": 2987,
+      "category": "cyberpunk",
+      "createdAt": "2026-04-30T09:00:00Z"
+    },
+    {
+      "id": "g16",
+      "image": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=600&q=80",
+      "prompt": "Mystical forest with bioluminescent plants",
+      "author": "Nina Park",
+      "avatar": "https://i.pravatar.cc/64?u=nina",
+      "likes": 3456,
+      "category": "fantasy",
+      "createdAt": "2026-04-29T17:00:00Z"
+    }
+  ],
+  "contacts": [],
+  "subscriptions": []
+}

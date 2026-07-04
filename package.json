@@ -1,0 +1,28 @@
+{
+  "name": "lumina-ai",
+  "version": "1.0.0",
+  "description": "Premium AI image generation platform — vanilla frontend + Node.js API",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/lumina-ai.git"
+  },
+  "scripts": {
+    "start": "npm run start --prefix backend",
+    "dev": "npm run dev --prefix backend",
+    "install:all": "npm install --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "setup": "npm run install:all && npm run seed && node -e \"const fs=require('fs');const p='backend/.env';if(!fs.existsSync(p))fs.copyFileSync('backend/.env.example',p);\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ai",
+    "image-generation",
+    "saas",
+    "vanilla-js",
+    "express"
+  ]
+}
